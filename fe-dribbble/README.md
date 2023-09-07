@@ -1,12 +1,12 @@
-## 2. Build a Site from a Mock Up
+# Build a Site from a Mock Up
 
-### Step 1 - Get Started
+## Step 1 - Get Started
 
 * Go to [Dribbble](https://dribbble.com/signup/new) and register for an account (it's free!)
 * Browse the [web design inspirations](https://dribbble.com/shots/popular/web-design)<br/>**OR** Search for a type of website, i.e. "Landing Page" or "Blog"
 * Decide on a design to use as inspiration
 
-### Step 2 - Folder Structure
+## Step 2 - Folder Structure
 
 * Make a directory called `dribbble_design`
 * Change into that directory
@@ -23,10 +23,8 @@
   * `git status`
   * `git commit -m "Initial Commit` <br/>(feel free to change the message text from "Initial Commit" to something more descriptive)
 
-### Step 3 - Build the Site
+## Step 3 - Build the Site
 
 * Use the text from your Grimm's Fairy Tales exercise as content.
 * Use the design you selected in Step 1 as your design format.
 * Build a site that matches the design, using the content from the fairy tale.
-
----
