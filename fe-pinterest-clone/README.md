@@ -11,7 +11,7 @@ If you choose the local folder option, following this folder structure:
 * **INITIALIZE A GIT REPO!!!**
 * Inside of `pinterest_clone` make two more folders:
   * Make a subdirectory called `styles`
-  * Make a subdirectory called `images`
+  * If you're using _local_ images, make a subdirectory called `images`
 * In the `pinterest_clone` folder create an `index.html`
 * In the `pinterest_clone/styles` subfolder make a file called `style.css`
 * You'll add any _local_ images to your `images` folder
