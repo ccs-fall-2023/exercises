@@ -1,7 +1,7 @@
 # Working with Classes in JavaScript
 
 **NOTE:** For your first pass on this, you can use something like CodeSandbox and log everything to the console.
-**LEVEL UP:** Make a directory and associated folders/files (like every other assignment) and incorporate DOM updates/interaction.
+**LEVEL UP:** Make a directory and associated folders/files (like every other assignment) and incorporate DOM updates/interaction instead of printing to the console.
 
 ## Work with an Existing Class
 
@@ -25,10 +25,10 @@ Write code to:
 
 - Instantiate an instance object of Person with name of 'Sonny', email of '<sonny@hotmail.com>', and phone of '483-485-4948', store it in the variable `sonny`.
 - Instantiate another person with the name of 'Jordan', email of '<jordan@aol.com>', and phone of '495-586-3456', store it in the variable `jordan`.
-- Have `sonny` greet `jordan` using the greet method.
-- Have `jordan` greet `sonny` using the greet method.
-- Write a print statement to print the contact info (email and phone) of Sonny.
-- Write another print statement to print the contact info of Jordan.
+- Have `sonny` greet `jordan` using the `greet` method.
+- Have `jordan` greet `sonny` using the `greet` method.
+- Write a `console.log` statement to print the contact info (email and phone) of Sonny.
+- Write another `console.log` statement to print the contact info of Jordan.
 
 ---
 
@@ -57,7 +57,7 @@ console.log(car.make, car.model, car.year)
 Add a `print_info` method to the `Vehicle` class. It will print out the vehicle's information:
 
 ```js
-console.log(car.print_info());
+car.print_info();
 ```
 
 Will output:
@@ -89,7 +89,7 @@ class Person {
 Add a `print_contact_info` method to the `Person` class that will print out the contact info for a object instance of Person.
 
 ```js
-console.log(sonny.print_contact_info())
+sonny.print_contact_info();
 ```
 
 Should generate this output:
@@ -137,7 +137,7 @@ jordan.add_friend(sonny)
 instead of the example we saw above:
 
 ```js
-jordan.friends.append(sonny)
+jordan.friends.push(sonny)
 ```
 
 #### Add a `num_friends` method
@@ -149,7 +149,18 @@ To do this, we'll implement a `num_friends` method which returns the number of f
 For example:
 
 ```js
-console.log(jordan.num_friends());
+jordan.num_friends();
 // will return the following:
 1
+```
+#### Add a `list_friends` method
+
+Implement a `list_friends` method which returns the first name for each friend a person has.
+
+For example:
+
+```js
+jordan.list_friends();
+// will return the following:
+Sonny
 ```
