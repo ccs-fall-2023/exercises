@@ -1,6 +1,7 @@
 # Working with Classes in JavaScript
 
 **NOTE:** For your first pass on this, you can use something like CodeSandbox and log everything to the console.
+
 **LEVEL UP:** Make a directory and associated folders/files (like every other assignment) and incorporate DOM updates/interaction instead of printing to the console.
 
 ## Work with an Existing Class
