@@ -1,4 +1,4 @@
-# Working with Classes in JavaScript
+# WARRIORS
 
 **NOTE:** For your first pass on this, you can use something like CodeSandbox and log everything to the console.
 
