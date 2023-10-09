@@ -29,9 +29,13 @@ Revenge of the "Mad Libs"
 
 ### String interpolation + Lists
 
-Abbot and Costellor vs the Mad Lib List
+Abbot and Costello vs the Mad Lib List
 
 * Define the necessary word types, i.e. "noun, verb, adjective," using a list.
 * The words will be the `key`, the initial `value` for each `key` will be blank
 * Using the list, prompt the user for input to update the `value` for each `key`
 * Using String Interpolation, print a silly sentence with those words.
+
+## Further adventures
+
+Google has a nice class on learning Python. It's a great resource, and has some simialr exercises for added practice:[Google's Python Class](https://developers.google.com/edu/python/introduction)
