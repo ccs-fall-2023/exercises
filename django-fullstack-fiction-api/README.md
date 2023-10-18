@@ -10,8 +10,7 @@ After completing this assignment, you should be able to:
 
 - Implement API endpoints for CRUD patterns using the Django Rest Framework.
 - Discuss CRUD functionality in APIs, focusing on the role of an application's API layer.
-- Build simple React applications & components from scratch.
-- Integrate React frontends with Django API backends.
+
 
 ## Details
 
@@ -32,7 +31,5 @@ Django project for the Fullstack Fiction app, including:
   - Don't forget to create & run appropriate migrations!
 - Build a serializer and viewset for the Book model
 - Wire up the viewset to URLs in the Django API
-- Create a new React application using Vite
 - Add views/components to the app to support full CRUD functionality
-- Link the React views/components to the Django API using the native `fetch()` method.
 - Test & verify you can completed all pieces of CRUD in your application.
