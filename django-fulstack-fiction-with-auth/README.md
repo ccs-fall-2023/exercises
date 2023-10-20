@@ -47,6 +47,10 @@ _We're doing this homework a little different than others. We first recommend wo
 - The article was written before `create-react-app` was deprecated, so the instructions still mention it.
   - Use `npm create vite@latest` instead.
 
+**REACT NOTE**:  Look at the components that are used in the tutorial but don't feel like you need to copy/paste them directly. They reference a lot of approaches that have changed in the last year (_welcome to tutorials and the rapid pace of software!_).
+
+You can give Axios a spin if you'd like (it's a replacement for `fetch()`) but it's not required. I personally think getting practice with the `loader` is prefered. To that end, I would use our exercises with React Router and the `loader` and `useLoaderData()` as templates and just pick and choose the relevant links/routes from the tutorial.
+
 #### Build your own 👍
 
 - Create a copy of your submission from ["Fullstack Fiction: API Edition"](../django-fullstack-fiction-api/)
