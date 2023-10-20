@@ -4,7 +4,7 @@ Fullstack Fiction's rebrand has gone a little TOO well - the public is starting 
 
 ## Objectives
 
-**NOTE**: Some of this is _non-trivial_.  It includes some things that we haven't discussed. There are some familiar things here, but there's also a lot of moving parts that we haven't discussed.  However, I think it should be within your reach if you're up for a challenge.
+**NOTE**: Some of this is _non-trivial_. It includes some things that we haven't discussed. There are some familiar things here, but there's also a lot of moving parts that we haven't discussed. However, I think it should be within your reach if you're up for a challenge.
 
 ### Learning Objectives
 
@@ -40,8 +40,10 @@ _We're doing this homework a little different than others. We first recommend wo
 
 - You will need to install `setuptools`, otherwise you'll get an error when you try to start the server (or run migrations)
   - `pip install setuptools`
-- When you're creating the logout api, you'll need to import the `RefreshToken` method
+- When you're creating the logout view, you'll need to import the `RefreshToken` method
   - `from rest_framework_simplejwt.tokens import RefreshToken`
+- You'll also need to add in the `status` module when setting up the logout view
+  - `from rest_framework import status`
 - The article was written before `create-react-app` was deprecated, so the instructions still mention it.
   - Use `npm create vite@latest` instead.
 
